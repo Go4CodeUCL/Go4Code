@@ -1,4 +1,4 @@
-<img src="./media/orange.png" align = "center"> </img>
+<img src="./media/orange.png" align = "center"> 
 
  <h2 align = "center">Welcome to Go4Code! </h2>
  
