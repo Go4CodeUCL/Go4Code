@@ -243,7 +243,7 @@ Ask your group mentor for help if you have an idea!
 
 
 ---
-Author: Ishan Khurana
-Date:   August 09, 2017
-Copyright (c) 2017 Go4Code All Rights Reserved.
+* Author: Ishan Khurana
+* Date:   August 09, 2017
+* Copyright (c) 2017 Go4Code All Rights Reserved.
 ---
