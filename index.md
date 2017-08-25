@@ -1,15 +1,13 @@
-# UCL Coding Summer School
+<img src="./media/orange.png" align = "center"> </img>
 
-<img src="header.jpg">
+ <h2 align = "center">Welcome to Go4Code! </h2>
+ 
+ <p align = "center"> All our projects and learning materials will be posted here for free forever. We will constantly be adding new projects so watch this space! </p>
 
-Welcome! This is the main page that contains all the resources you'll use during this summer school.
 
 
 ## Introductory material
 
-#### [Student Guide](./docs/student_guide.md)
-
-This is the printed welcome document that you were all given.
 
 #### [Introduction to Python and the Sense HAT](./docs/sense_hat_intro.md)
 
@@ -21,12 +19,21 @@ read through this and do all the exercises before attempting any projects.
 This contains descriptions of some functions that will be useful to you
 when you're working with your projects.
 
-#### [Running Files on the Sense HAT](./docs/running_files_on_the_sense_hat.md)
-
-This contains instructions on how to transfer code from the desktop to the Sense HAT and run it.
-
 
 ## Projects
+
+### Coming Soon!
+
+#### Snakes and Ladders
+In this project you will use the Sense HAT to make the classic board game Snakes and Ladders. 
+
+#### Tetris 
+
+In this project you will create Tetris for the Sense HAT
+
+#### Talking Pi
+
+In this project you will hook up your Raspberry Pi into some speakers and make it talk. You could get it to tell you the time, how hot and humid it is, or even read you a book!
 
 
 ### Easy
@@ -91,3 +98,6 @@ Have you already done one of our projects, and now you want to try to make somet
 
 You can discuss with your supervisors about how you could complete the project you want to do. Keep in mind
 that you only just started to learn Python, so you shouldn't try to make something that's *too* advanced yet.
+
+---
+* Copyright (c) 2017 Go4Code All Rights Reserved.
