@@ -1,8 +1,7 @@
-<img src="./media/orange.png" align = "center"> 
+<p align = "center"><img src="./media/logo3.png" width = "30%"> </p>
 
- <h2 align = "center">Welcome to Go4Code! </h2>
  
- <p align = "center"> All our projects and learning materials will be posted here for free forever. We will constantly be adding new projects so watch this space! </p>
+<p align = "center"> Welcome to Go4Code! All our projects and learning materials will be posted here for free forever. We will constantly be adding new projects so watch this space! </p>
 
 
 
