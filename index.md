@@ -1,7 +1,13 @@
-<p align = "center"><img src="./media/logo3.png" width = "30%"> </p>
+<p align = "center"><img src="./media/logo3.png" width = "30%"></p>
 
- 
+
+
+
+
 <p align = "center"> Welcome to Go4Code! All our projects and learning materials will be posted here for free forever. We will constantly be adding new projects so watch this space! </p>
+
+<p align = "center"> Follow us on Twitter! <a href="https://twitter.com/Go4Code"><br> <img src="http://i.imgur.com/tXSoThF.png" height = "20%"></a></p> 
+
 
 
 
