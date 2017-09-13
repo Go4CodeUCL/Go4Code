@@ -1,4 +1,4 @@
-import skywriter, os
+import os
 
 last_tap = False
 last_doubletap = False
@@ -8,7 +8,7 @@ last_last_move = ()
 move_detected = False
 last_touch = {"any":False,"center":False,"north":False,"east":False,"south":False,"west":False}
 kidfriendly = {"middle":"center","up":"north","right":"east","down":"south","left":"west"}
-colourNumber = 0;
+colourNumber = 0
 
 configFile = {"path":"tradfri.cfg","content":"[tradfri] \nhubip = 192.168.1.101\nsecurityid = C142ruJXimcqCcsb"}
 
@@ -23,37 +23,6 @@ def kidspeak(s): #converting the kid language to skywriter arguments
     if s in kidfriendly.keys():
         return kidfriendly[s]
     return s
-
-@skywriter.tap()
-def tap(location):
-    global last_tap
-    last_tap = True
-
-@skywriter.double_tap()
-def double_tap(position):
-    global last_doubletap
-    last_doubletap = True
-
-@skywriter.flick()
-def flick(start, end):
-    global last_flick
-    last_flick[end] = True
-    last_flick["any"] = True
-
-@skywriter.move()
-def move(x,y,z):
-    global last_move
-    global last_last_move
-    global move_detected
-    last_last_move = last_move
-    last_move = (x,y,z)
-    move_detected = True
-
-@skywriter.touch()
-def touch(loc):
-    global last_touch
-    last_touch[loc] = True
-    last_touch["any"] = True
 
 def was_tapped():
     """
@@ -111,10 +80,6 @@ def get_pos():
     global last_move
     return last_move
 
-def get_height():
-    pos = get_pos()
-    return pos[2]
-
 def was_moved():
     """
     Says whether the sensor has detected any movement since it was last checked.
@@ -168,6 +133,7 @@ def setColour(colourNumber):
     command = "python2 tradfri-lights.py -l 65537 -a color -v "+colour
     os.popen(command)
 
+
 def changeColour():
     global colourNumber
 
@@ -176,3 +142,6 @@ def changeColour():
         colourNumber+=1
     else:
         colourNumber = 0
+
+
+turnLightOn()

@@ -1,0 +1,2 @@
+from tradfriLight import *
+turnLightOn()
