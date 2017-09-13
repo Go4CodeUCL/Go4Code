@@ -1,4 +1,4 @@
-# <p align = "center">Project: Touch Light <p>
+# <p align = "center">Project: Touch Light </p>
 <p align = "center"> Mentor Guide<p>
 
 
